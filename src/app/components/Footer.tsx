@@ -102,7 +102,7 @@ const Footer = () => {
             <div className="bg-sky-900 flex p-10 justify-center">
                 <div className="flex flex-col mr-3">
                     <p>SITE MAP</p>
-                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border-0 rounded md:my-1 dark:bg-white" />
+                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border rounded md:my-1 dark:bg-white" />
                     <ul className="flex flex-col">
                         {links.map(({ id, link, src }) => (
                             <li
@@ -120,7 +120,7 @@ const Footer = () => {
 
                 <div className="flex flex-col mr-3">
                     <p>QUẢN LÝ KINH DOANH BDS</p>
-                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border-0 rounded md:my-1 dark:bg-white" />
+                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border rounded md:my-1 dark:bg-white" />
                     <ul className="flex flex-col">
                         {linkSeconds.map(({ id, link, src }) => (
                             <li
@@ -137,7 +137,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col mr-3">
                     <p>QUẢN LÝ VẬN HÀNH BDS</p>
-                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border-0 rounded md:my-1 dark:bg-white" />
+                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border rounded md:my-1 dark:bg-white" />
                     <ul className="flex flex-col">
                         {linkThirds.map(({ id, link, src }) => (
                             <li
@@ -154,7 +154,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col mr-3">
                     <p>THEO DÕI ECOGREEN</p>
-                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border-0 rounded md:my-1 dark:bg-white" />
+                    <hr className="w-60 h-0.5 mx-auto bg-white-100 border rounded md:my-1 dark:bg-white" />
                     <div className="flex">
                         <Image
                             src="/icons/facebook.png"

@@ -52,11 +52,11 @@ export default function Header() {
                 {links.map(({ id, link, src }) => (
                     <li
                         key={id}
-                        className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-yellow-500 duration-200 link-underline"
+                        className="nav-links px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 hover:text-yellow-500 duration-200 link-underline"
                     >
                         <a href={link} className="w-fill flex p-3 pl-3 bg-gray-100 hover:bg-gray-200 rounded-lg items-center">
                             <img className="flex-none w-4 h-full" src={src} />
-                            <span className="ml-2 truncate" title="Test with a very really long name (resize the browser to see it truncate)">{link}</span>
+                            <span className="ml-2 truncate">{link}</span>
                         </a>
                     </li>
 
@@ -77,10 +77,9 @@ export default function Header() {
                             key={id}
                             className="px-4 cursor-pointer capitalize py-6 text-4xl"
                         >
-                            <Link onClick={() => setNav(!nav)} href={link}>
+                            <Link onClick={() => setNav(!nav)} href={link} className="text-black">
                                 {link}
                             </Link>
-
                         </li>
                     ))}
                 </ul>
