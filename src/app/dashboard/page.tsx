@@ -111,26 +111,33 @@ const Home = () => {
       <div className="flex flex-col m-5 gap-2">
         <p className="text-cyan-600 ml-5 mt-10">Tiện ích tại Ecogreen city</p>
         <hr className="w-60 ml-5 h-0.5 bg-white-100 border rounded md:my-1" />
-        <div  className="flex justify-center">
-          <Image width={'1000'} height={100} src="/icons/10.jpg.png" alt={''}/>
+        <div className="flex justify-center">
+          <Image width={'1000'} height={100} src="/icons/10.jpg.png" alt={''} />
         </div>
         <p className="text-gray-500">Dự án duy nhất tại <span className="text-black">Chung cư Eco Green</span> có 2 công viên lớn. Công viên nội khu 3.5 Héc ta ( 35.000m2) và công viên Hương Tràm 22 Héc ta ngay cạnh dự án. </p>
-        <Image width={'1600'} height={100} src="/icons/3.jpg.png" alt={''}/>
+        <Image width={'1600'} height={100} src="/icons/3.jpg.png" alt={''} />
         <p className="text-gray-500">Khách sạn cao cấp Park Hyatt cao 68 tầng nằm trong tổng thể <span className="text-black">Chung cư Eco Green Sài Gòn</span>, Trung tâm thương mại 6 tầng ngay tầng dưới.</p>
-        <Image width={'1000'} height={100} src="/icons/diboi.png" alt={''}/>
+        <Image width={'1000'} height={100} src="/icons/diboi.png" alt={''} />
         <p>Hồ bơi 500m2 riêng cho từng Block Căn hộ.</p>
-        <Image width={'1000'} height={100} src="/icons/11.png" alt={''}/>
+        <Image width={'1000'} height={100} src="/icons/11.png" alt={''} />
         <p>Khu tiện ích ở tầng 3 dự án gồm tất cả các tiện ích phục vụ nhu cầu thiết yếu của cư dân Eco Green. Với tổng diện tích toàn khu hơn 14ha, nhưng mật độ xây dựng chỉ chiếm khoảng 24%, diện tích còn lại sẽ dành để hoàn thiện cho hơn 39 tiện ích nội khu cao cấp và không gian xanh của thiên nhiên, cây trồng.</p>
         <div className="flex flex-col items-center justify-center">
-          <Image width={'1200'} height={100} src="/icons/12.jpg.png" alt={''}/>
+          <Image width={'1200'} height={100} src="/icons/12.jpg.png" alt={''} />
           <p>Về giáo dục, Ngay trong khuôn viên của dự án sẽ có Trường mầm non rộng gần 3.000m2 và Trường Tiểu học Kim Đồng đạt chuẩn quốc gia, đáp ứng tốt nhất nhu cầu học tập của con trẻ</p>
         </div>
         <div className="flex flex-col m-5">
-          <Image width={'1200'} height={100} src="/icons/14.png" alt={''}/>
+          <Image width={'1200'} height={100} src="/icons/14.png" alt={''} />
           <p>Trung tâm thương mại và khách sạn cao cấp được xây dựng trên diện tích 30.000m2 sẽ là nơi tuyệt vời để cư dân thỏa thích thăm quan mua sắm lựa chọn cho mình những sản phẩm yêu thích, thỏa mãn nhu cầu ăn uống, mua quần ào, đồ dùng, hàng hiệu</p>
         </div>
       </div>
-      
+      <div className="flex justify-items-center flex-col align-items-center content-center">
+        <hr className="w-60 ml-5 h-0.5 bg-blue-400 border rounded md:my-1" />
+        <p className="text-cyan-600 ml-5 mt-10">App dành cho cư dân</p>
+
+        <Image width={'1200'} height={100} src="/icons/cudan1.png" alt={''} />
+        <Image width={'1200'} height={100} src="/icons/cudan2.png" alt={''} />
+      </div>
+
     </div>
   )
 };
